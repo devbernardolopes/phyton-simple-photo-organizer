@@ -1,0 +1,59 @@
+ORGANIZADOR DE FOTOS POR EXIF - COMO USAR
+==========================================
+
+Olá! Este programa organiza suas fotos em pastas por ANO / MÊS / DIA / HORA,
+usando a data em que a foto foi tirada (gravada na foto). Não precisa instalar
+nada: basta dar dois cliques no OrganizadorDeFotos.exe.
+
+PASSO A PASSO (recomendado na primeira vez)
+-------------------------------------------
+1. Dê dois cliques em OrganizadorDeFotos.exe para abrir.
+2. Em "Pasta de origem", clique em Procurar... e escolha a pasta com as fotos
+   bagunçadas (ex.: as fotos do serviço).
+3. Em "Pasta de destino", clique em Procurar... e escolha (ou crie) uma pasta
+   vazia, por exemplo "Fotos Organizadas" na Área de Trabalho.
+   IMPORTANTE: use uma pasta de destino DIFERENTE da pasta de origem.
+4. Marque "Simular (mostra o que seria feito, sem alterar nenhum arquivo)"
+   e clique em Iniciar. Veja na lista o que seria feito. Nada será alterado.
+5. Desmarque "Simular", deixe marcado "Copiar (mantém os originais)" e clique
+   em Iniciar de novo. Agora sim as fotos serão copiadas e organizadas.
+6. Confira a pasta de destino. Se ficou tudo certo, depois você pode apagar
+   os originais (ou usar a opção Mover numa próxima vez).
+
+O QUE CADA OPÇÃO FAZ
+--------------------
+- Copiar (recomendado): mantém as fotos originais onde estão e cria cópias
+  organizadas na pasta de destino. Mais seguro.
+- Mover: retira as fotos da origem e leva para o destino. O programa vai
+  pedir confirmação antes.
+- Incluir subpastas: procura fotos também dentro das subpastas da origem.
+  Deixe marcado.
+- Simular: só mostra o que seria feito, sem copiar nem mover nada. Use
+  sempre antes, para conferir.
+
+COMO FICAM AS PASTAS
+--------------------
+Dentro da pasta de destino, as fotos ficam assim:
+  2024 / 05 / 12 / 14 / foto.jpg
+  (ano / mês / dia / hora / arquivo)
+
+Se duas fotos têm o mesmo nome mas são diferentes, o programa renomeia
+automaticamente (foto_1.jpg, foto_2.jpg). Se a foto já existe idêntica no
+destino, ela é ignorada (não duplica). Fotos sem data na foto usam a data
+de modificação do arquivo (o programa avisa na lista).
+
+SE O WINDOWS MOSTRAR AVISO AZUL ("Windows protegeu o PC")
+---------------------------------------------------------
+É normal com programas novos. Clique em "Mais informações" e depois em
+"Executar mesmo assim". O programa não instala nada e não precisa de internet.
+
+DICAS
+-----
+- Para muitas fotos, o processo pode demorar. Aguarde a mensagem "Concluído".
+- Você pode clicar em Cancelar a qualquer momento; o arquivo atual termina
+  e o resto para, sem estragar nada.
+- O programa nunca apaga fotos ao copiar. Ao mover, só apaga a origem
+  depois de conferir que a cópia ficou correta.
+- Guarde este OrganizadorDeFotos.exe junto com este LEIA-ME.txt.
+
+Em caso de erro, anote a mensagem que aparece na lista e peça ajuda.

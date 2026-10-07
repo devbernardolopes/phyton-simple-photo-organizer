@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+.venv-linux/
+build/
+dist/
+*.spec
